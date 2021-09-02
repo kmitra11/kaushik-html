@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    
+        <head>
+          <title>
+            15 Forms
+          </title>
+        </head>
+      
+  
+      <body bgcolor="pink" >
+        <table border="1" cellspacing="0" width="20%" height="30" bgcolor="yellow" align="center" >
+          <tr>
+            <td align="center">
+              <h1> login form </h1>
+  
+            </td> 
+            
+          </tr>
+  
+        </table> <br><br>    
+   
+        <form method="POST">
+
+        <input type="text" name="textusername" placeholder="username" required> <br>
+        <input type="password" name="papassword" placeholder="password" required><br>
+        <input type="submit" value="login">
+        </form>
+        <hr>        
+        <table border="1" cellspacing="0" width="20%" height="30" bgcolor="yellow" align="center" >
+          <tr>
+            <td align="center">
+              <h1> Registration form </h1>
+  
+            </td> 
+            
+          </tr>
+        </table> <br><br>
+        <form method="POST"> 
+         Firstname:<br><input type="text" name="textfirstname" required><br>
+         Lastname:<br> <input type="text"  name="textlastname" required><br>
+         Email Id:<br> <input type="email" name="emailname" required><br>
+         Date of birth:<br> <input type="date" name="datename" required><br>
+         Gender:<input type="radio" name="rdgender" value="Male"> Male<input type="radio" name="rdgender" value="Female"> Female<br>
+         Password:<br><input type="Password" name="textpassword" placeholder="Password" required><br>
+         Confirm Password:<br><input type="Password" name="textpassword" placeholder="Password" required><br>
+         <input type="submit" value="Register">
+         
+
+
+        </form>
+        <hr>        
+        <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+          <tr>
+            <td align="center">
+              <h1> Forget password Form </h1>
+  
+            </td> 
+            
+          </tr>
+        </table> <br><br>
+        <form>
+          <input type="text" placeholder="Username" name="textusername" required> <input type="text" placeholder="Password" name="textpassword" required>  <input type="submit" value="login" required> <br>
+          <input type="checkbox" name="chkname" value="Remember me?"> Remember me?  <input type="submit" value="Forgot password">
+        </form>
+        <hr>        
+        <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+          <tr>
+            <td align="center">
+              <h1> Sign Up form </h1>
+            </td>  
+          </tr>
+        </table> <br><br>  
+                
+
+            <form>
+
+          
+            Firstname:<br><input type="text" name="textfirstname" required><br>
+            Lastname:<br> <input type="text"  name="textlastname" required><br>
+            Email Id:<br> <input type="email" name="emailname" required><br>
+            Password:<br><input type="Password" name="textpassword" placeholder="Password" required><br>
+            Confirm Password:<br><input type="Password" name="textpassword" placeholder="Password" required><br>
+
+            <input type="checkbox" name="chkname" value="I accept the Terms and condition"> I accept the Terms and condition<br>  <input type="submit" value="Sign Up">
+          </form>           
+          <hr>        
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> Subscribe Form </h1>
+              </td>  
+            </tr>
+          </table> <br><br>  
+          <form>
+            Firstname:<br><input type="text" name="textfirstname" required><br>
+            Lastname:<br> <input type="text"  name="textlastname" required><br>
+            Email Id:<br> <input type="email" name="emailname" required><br> 
+            <input type="submit" value="Subscribe"> 
+
+          </form>
+          <hr>
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> Contact Form </h1>
+              </td>  
+            </tr>
+          </table> <br><br>
+          <form>
+
+            Firstname:<input type="text" name="textfirstname" required> Lastname:<input type="text"  name="textlastname" required> <br><br>
+            Email Id:     <input type="email" name="emailname" required> <br><br>
+            Phone Number: <input type="number" name="numphone" required> <br><br>
+            Contact Me:<input type="radio" name="rdcontact" value="Phone"> Phone <input type="radio" name="rdcontact" value="Email"> Email<br><br>
+            Message <br> <textarea name="textmessage" rows="10" placeholder="If you have any query message here"></textarea> <br>
+            <input type="submit">    
+          </form>  
+         
+
+         <hr>
+         <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+           <tr>
+             <td align="center">
+               <h1> Feedback Form </h1>
+             </td>  
+           </tr>
+         </table> <br><br>  
+         <form>
+          Date of course: <input type="date" name="datename" required><br><br>
+          Course Persuing:<input type="text" name="txtname" value="Full Stack Development" readonly><br><br>
+          Trainer:<input type="text" name="txtname" value="dinesh" readonly><hr>
+          <ol>
+            <li> The objective of the training was clearly defined: <br><input type="radio" name="rdtext" value="Neautral"> Neautral<br>
+              <input type="radio" name="rdtext" value="Agree">  Agree<br><input type="radio" name="rdtext" value="disagree"> disagree
+            </li><br>
+            <li> The Training sessions where well explianed and the trainere was helpful: <br><input type="radio" name="rdtext" value="Neautral"> Neautral<br>
+              <input type="radio" name="rdtext" value="Agree">  Agree<br><input type="radio" name="rdtext" value="disagree"> disagree
+            </li><br>
+            <li> The Training materials where well distributed and was helpful: <br><input type="radio" name="rdtext" value="Neautral"> Neautral<br>
+              <input type="radio" name="rdtext" value="Agree">  Agree<br><input type="radio" name="rdtext" value="disagree"> disagree
+            </li><br>
+            <li> The Trainer was knowledgeable and interactive: <br><input type="radio" name="rdtext" value="Neautral"> Neautral<br>
+              <input type="radio" name="rdtext" value="Agree">  Agree<br><input type="radio" name="rdtext" value="disagree"> disagree
+            </li><br>  
+            <li> Share your Experience about the traing: <br> <textarea name="textmessage" rows="5"  placeholder="Please Enter your comments"></textarea> <br>
+            </li><br>        
+          </ol>
+          <input type="submit">
+
+         </form>
+         <hr>
+         <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+           <tr>
+             <td align="center">
+               <h1> Donation Form </h1>
+             </td>  
+           </tr>
+         </table> <br><br>  
+         <form>
+           Donar Name*<br><br>
+          <input type="text" name="textfirstname" required placeholder="First Name"> <input type="text"  name="textlastname" placeholder="Lastname" required><br><br>
+          Mode of Donation<br><br>
+          <select name="slpayments">
+            <option>Select</option>
+            <option>Cash</option>
+            <option>Card</option>
+            <option>check</option>
+            <option>stationary items</option>
+            <option>Foods</option>
+            <option>Dresses</option>
+          </select><br><br>
+          Donar comments: <br> <textarea name="textmessage" rows="5"  placeholder="Please Enter your comments"></textarea><br><br>
+          Donar Email Id:     <input type="email" name="emailname" required> <br><br>
+          Donar Phone Number: <input type="number" name="numphone" required> <br><br>
+          Donar Address: <br><input type="text" name="txtadd1" placeholder="House/appartment/Building" required> <br><br>
+          <input type="text" name="txtadd2" placeholder="Address Line No.2" required><br><br>
+          <input type="text" name="txtadd3" placeholder="City" required><br><br>
+          <input type="text" name="txtadd4" placeholder="State" required>   <input type="text" name="txtadd5" placeholder="Country" required><br><br>
+          <input type="submit"> 
+         </form>
+         <hr>
+         <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+           <tr>
+             <td align="center">
+               <h1> Job Application Form </h1>
+             </td>  
+           </tr>
+         </table> <br><br>
+         <form method="POST" enctype="multipart/form-data">
+          Applicants Name: <input type="text" name="textfirstname" required placeholder="First Name"> <input type="text"  name="textlastname" placeholder="Lastname" required><br><br>
+          Applicants  Phone Number: <input type="number" name="numphone" required> <br><br>
+          Applicants Email Id:     <input type="email" name="emailname" required> <br><br>
+          Applicants Address: <br><input type="text" name="txtadd1" placeholder="House/appartment/Building" required> <br><br>
+          <input type="text" name="txtadd2" placeholder="Address Line No.2" required><br><br>
+          <input type="text" name="txtadd3" placeholder="City" required><br><br>
+          <input type="text" name="txtadd4" placeholder="State" required>   <input type="text" name="txtadd5" placeholder="Country" required><br><br>
+         Attach Your CV<br>
+          <input type="file" name="text2"><br><br>
+
+          Post Applying For:<br>
+          <br><input type="radio" name="rdtext" value="Software Developer"> Software Developer<br>
+              <input type="radio" name="rdtext" value="Graphics Designer">  Graphics Designer<br><input type="radio" name="rdtext" value="Full Stack Developer"> Full Stack Developer<br><input type="radio" name="rdtext" value="API Analyst"> API Analyst<br>
+              <input type="radio" name="rdtext" value="Data scientist"> Data scientist<br><input type="radio" name="rdtext" value="Backend Developer"> Backend Developer
+              <br><br><input type="submit">
+          </form> 
+          <hr>
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> Doctors Appointment Form </h1>
+              </td>  
+            </tr>
+          </table> <br><br>
+          <form>
+            Patient Name: <input type="text" name="textfirstname" required placeholder="First Name"> <input type="text"  name="textlastname" placeholder="Lastname" required><br><br>
+            Patient Phone Number: <input type="number" name="numphone" required> <br><br>
+            Patient Email Id:     <input type="email" name="emailname" required> <br><br>
+            Patient Address: <br><input type="text" name="txtadd1" placeholder="House/appartment/Building" required> <br><br>
+            <input type="text" name="txtadd2" placeholder="Address Line No.2" required><br><br>
+            <input type="text" name="txtadd3" placeholder="City" required><br><br>
+            <input type="text" name="txtadd4" placeholder="State" required>   <input type="text" name="txtadd5" placeholder="Country" required>
+            <br><br>
+            Date and Time of Appointment<br><input type="datetime-local"><br><br>
+            Consultancy Type<br>  
+              <select name="slconsult" multiple>
+              <option>General Physicain</option>
+              <option>Surgeon</option>
+              <option>ENT</option>
+              <option selected>Ortho </option>
+              <option>Cardio</option>
+              </select> <br><br>
+              Mode of Payment<br>
+              <select name="slpayments">
+                <option>Select</option>
+                <option>Cash</option>
+                <option>Card</option>
+                                
+              </select><br><br>
+              <input type="submit" value="Submit for Appointment">     
+          </form>
+          <hr>        
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> Payment Form </h1>
+              </td>  
+            </tr>
+          </table> <br><br>  
+          <form>
+            Firstname:<br><input type="text" name="textfirstname" required><br>
+            Lastname:<br> <input type="text"  name="textlastname" required><br>
+            Email Id:<br> <input type="email" name="emailname" required><br>
+            Lastname:<br> <input type="text"  name="textlastname" required><br>
+            Amount in Rs:<br> <input type="number"  name="textamt" required><br>
+            Mode of Payment<br>
+            <select name="slpayments">
+              <option>Select</option>
+              <option>Cash</option>
+              <option>Card</option>
+              <option>Neft banking</option>
+                              
+            </select><br><br>
+            <input type="text" name="textcard" placeholder="Card number" required><br>
+            <br> <input type="text"  name="textccv" placeholder="ccv*" required><br>
+            <br> Card Expiry date:<br><input type="date"  name="dateexp"  required><br>
+            <br> <input type="text"  name="textIIFC" placeholder="IIFC" required><br>
+           
+            <br> <input type="text"  name="textbankaccount" placeholder="Bank account Number" required><br>
+            <input type="submit" value="PAY"> 
+
+          </form>
+          <hr>        
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> Survey Form </h1>
+              </td>  
+            </tr>
+          </table> <br><br>
+          <form>
+            <h1 align="center"> We Would Like to hear About the The recently Lauched product by Phillips</h1>
+            <ol>
+              <li> Are You happy With the product: <br><input type="radio" name="rdtext" value="Neautral">Neautral<br>
+                <input type="radio" name="rdtext" value="happy">happy<br><input type="radio" name="rdtext" value="disappointed">disappointed
+              </li><br>
+              <li> Was the product cost effective: <br><input type="radio" name="rdtext" value="Neautral">Neautral<br>
+                <input type="radio" name="rdtext" value="happy">happy<br><input type="radio" name="rdtext" value="disappointed">disappointed
+              </li><br>
+              <li> Was the product user friendly: <br><input type="radio" name="rdtext" value="Neautral">Neautral<br>
+                <input type="radio" name="rdtext" value="happy">happy<br><input type="radio" name="rdtext" value="disappointed">disappointed
+              </li><br>
+              <li> Was the product was able live up to your expectation: <br><input type="radio" name="rdtext" value="Neautral">Neautral<br>
+                <input type="radio" name="rdtext" value="happy">happy<br><input type="radio" name="rdtext" value="disappointed">disappointed
+              </li><br>  
+              <li> Share your Experience about the Product: <br> <textarea name="textmessage" rows="5"  placeholder="Please Enter your comments"></textarea> <br>
+              </li><br>
+              <input type="submit" ">      
+            
+          </form> <hr> 
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> Flight Booking Form </h1>
+              </td>  
+            </tr>
+          </table> <br><br>
+          <form>
+            Firstname:<br><input type="text" name="textfirstname" required><br><br>
+            Lastname:<br> <input type="text"  name="textlastname" required><br><br>
+            Email Id:<br> <input type="email" name="emailname" required><br><br>          
+            Gender:<input type="radio" name="rdgender" value="Male"> Male<input type="radio" name="rdgender" value="Female"> Female<br><br>
+            Passenger Phone Number:<br> <input type="number" name="numphone" required> <br><br>
+            Flight Number:<br> <input type="text" name="txtfligt" required><br><br>  
+            Date of Departure:<br> <input type="datetime-local" name="datename" required><br><br>
+            Date of Arrival:<br> <input type="datetime-local" name="datename" required><br><br>
+            Number of Passengers:
+            <select name="slpassenger">
+              <option>Select</option>
+              <option>1</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+            </select><br><br>
+            Type of tier Class:<br>
+            <select name="slpassenger"multiple>
+              <option>Deluxe </option>
+              <option selected>Economy</option>
+              <option>business</option>
+              <option>Premium</option></select>
+              <br><br>
+              <button type="button"><strong>submit</strong></button>   
+          </form><hr>  
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> HTML ONLINE EXAM </h1>
+              </td>  
+            </tr>
+          </table> <br><br>
+          <form>
+            Candidates Name: <input type="text" name="textfirstname" required placeholder="First Name"> <input type="text"  name="textlastname" placeholder="Lastname" required><br><br>
+            Candiadtes Roll Number: <input type="number" name="numphone" required> <br><br>
+            Candiadtes Email Id:  <input type="email" name="emailname" required> <br><br>
+            Date of Exam:<br> <input type="date" name="datename" required><br><br>
+            <strong>1 What are the Input controls of HTML Forms</strong>
+            <ol>
+              <li> Single line input Control Field: <br><br>
+                <input type="radio" name="rdtext" value="Right"> Right<br><input type="radio" name="rdtext" value="Wrong"> Wrong
+              </li><br>
+              <li> Multiple line input Control Field: <br><br>
+                <input type="radio" name="rdtext" value="Right"> Right<br><input type="radio" name="rdtext" value="Wrong"> Wrong
+              </li><br>
+              <li> Both Single and Multiple line input control field: <br><br>
+                <input type="radio" name="rdtext" value="Right">  Right<br><input type="radio" name="rdtext" value="Wrong"> Wrong
+              </li><br>
+              <li> None of the above: <br><br>
+                <input type="radio" name="rdtext" value="Right">  Right<br><input type="radio" name="rdtext" value="Wrong"> Wrong
+              </li><br>  
+             
+            </ol>
+            <input type="submit">            
+
+          </form><hr>
+          <table border="1" cellspacing="0" width="30%" height="30" bgcolor="yellow" align="center" >
+            <tr>
+              <td align="center">
+                <h1> MCQ FORM </h1>
+              </td>  
+            </tr>
+          </table> <br><br>
+          <form>
+            <strong>Bricks, Beads and Bones Class 12 MCQs Questions</strong><br><br>
+            <ol>
+              <li>
+                 Which of these is the other name of Harappan Civilisation?
+                 <br><br>
+                <input type="checkbox" name="chkext" value="Aryan Civilisation"> Aryan Civilisation<br><input type="checkbox" name="Chktext" value="Indus Valley Civilisation"> Indus Valley Civilisation<br>
+                <input type="checkbox" name="chkext" value="Vedic Civilisation"> Vedic Civilisation<br><input type="checkbox" name="chkext" value="All of these"> All of these
+              </li><br>
+              <li>
+                Which of these sites of Harappan Civilisation belong to Haryana?<br><br>
+                <input type="checkbox" name="chkext" value=" Kalibangan"> Kalibangan<br><input type="checkbox" name="Chktext" value="Lothal"> Lothal<br>
+                <input type="checkbox" name="chkext" value="Banawali"> Banawali<br> <input type="checkbox" name="chkext" value="Shortugai"> Shortugai
+              </li><br>
+              <li>
+                Which of these is the feature of Harappan Civilisation?<br><br>
+                <input type="checkbox" name="chkext" value=" Urban planning"> Urban planning<br><input type="checkbox" name="Chktext" value="Drainage system"> Drainage system<br>
+                <input type="checkbox" name="chkext" value="Citadel and Lower town"> Citadel and Lower town<br> <input type="checkbox" name="chkext" value="All of these"> All of these
+              </li><br>
+              <li>
+                From where did Harappans get gold?<br><br>
+                <input type="checkbox" name="chkext" value=" South India"> South India<br><input type="checkbox" name="Chktext" value="Central India"> Central India<br>
+                <input type="checkbox" name="chkext" value="Himalayan Region"> Himalayan Region<br> <input type="checkbox" name="chkext" value="Chotta Nagpur region"> Chotta Nagpur region
+              </li><br>
+              
+            </ol>
+            <input type="submit">                
+
+          </form>
+      </body>
+
+                         
+                                      
+                                
+                          
+                                
+
+
+
+ 
+           
+
+
+
+          
+
+        
+
+
+
+
+
